@@ -6,10 +6,14 @@ $(window).scroll(function(){
 });
 
 $(window).resize(function(){
-	if($(window).width() < 935)
+	if($(window).width() < 960)
 		$('.nav-container').addClass('shrink');
 	else
 		$('.nav-container').removeClass('shrink');
+});
+
+$('.burger-nav').on('click', function(){
+	$('header nav').toggleClass('nav-open');
 });
 
 function initMap() {
