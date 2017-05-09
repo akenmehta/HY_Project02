@@ -502,7 +502,7 @@ header button {
 
 @media (max-width: 960px) {
   .burger-nav {
-    display: block;
+    display: in-block;
     height: 60px;
     width: 100%;
     background: url(../assets/burger-nav.png) no-repeat 95% center;
@@ -1001,10 +1001,7 @@ button {
   background-color: #fcfcfc; }
 
 #map {
-  height: 400px;
-  width: 100%; }
-
-.maps {
+  height: 500px;
   max-width: 100%; }
 
 .forms {

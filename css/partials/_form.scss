@@ -3,12 +3,10 @@
 	background-color: $global-off-white;
 }
 #map{
-  	height: 400px;
-  	width: 100%;
+  	height: 500px;
+  	max-width: 100%;
 }
-.maps{
-	max-width: 100%;
-}
+
 .forms{
 	padding: 100px 0;
 	background-color: $global-off-white;
