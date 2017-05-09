@@ -949,7 +949,11 @@ button {
   padding: 160px 0 100px 0;
   background-color: #fcfcfc; }
 
-.maps img {
+#map {
+  height: 400px;
+  width: 100%; }
+
+.maps {
   max-width: 100%; }
 
 .forms {

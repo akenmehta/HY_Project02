@@ -2,10 +2,12 @@
 	padding: 160px 0 100px 0;
 	background-color: $global-off-white;
 }
+#map{
+  	height: 400px;
+  	width: 100%;
+}
 .maps{
-	img{
-		max-width: 100%;
-	}
+	max-width: 100%;
 }
 .forms{
 	padding: 100px 0;
