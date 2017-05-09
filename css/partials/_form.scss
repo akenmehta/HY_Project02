@@ -1,0 +1,62 @@
+.say-hello{
+	padding: 160px 0 100px 0;
+	background-color: $global-off-white;
+}
+.maps{
+	img{
+		max-width: 100%;
+	}
+}
+.forms{
+	padding: 100px 0;
+	background-color: $global-off-white;
+}
+.form{
+	width: 60%;
+	margin: 0 auto;
+	label{
+		display: block;
+		margin: 10px 0;
+	}
+}
+.form-left{
+	width: calc(50% - 10px);
+	float: left;
+	input{
+		width: 100%;
+		padding: 10px;
+	}
+	 input:focus, input:hover{
+		outline: 0.5px solid #000;
+	}
+}
+.form-right{
+	width: calc(50% - 10px);
+	float: right;
+	textarea{
+		width: 100%;
+		height: 122px;
+		padding: 10px;
+	}
+	textarea:focus, textarea:hover{
+		outline: 0.5px solid #000;
+	}
+	button{
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 935px) {
+	.say-hello{
+		padding: 50px 0;
+	}
+	.form{
+		width: 80%;
+	}
+	.form-left{
+		width: 100%;
+	}
+	.form-right{
+		width: 100%;
+	}
+}

@@ -1,0 +1,283 @@
+/*generic typo*/
+h1, h3, a{
+	font-family: 'Open Sans', 'Sans Serif';
+}
+button, h2, h4, h5, p{
+	font-family: 'Montserrat', 'Sans Serif';
+}
+h2{
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-align: center;
+	}
+h3{
+	font-size: 14.58px;
+	font-weight: 300;
+	color: #999;
+	letter-spacing: 0.1em;
+	text-align: center;
+	}
+p{
+	font-size: 14px;
+	font-weight: 300;
+	color: #777;
+	line-height: 26px;	
+	}
+.button2{
+	padding: 10px 25px;
+	color: #ececec;
+	background-color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	transition: all 0.5s;
+}
+.button2:hover{
+	color: #000;
+	background-color: #ececec;
+	transform: scale(1.1);
+}
+.button1{
+	padding: 10px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #111;
+	background-color: #fff;
+	border: none;
+	transition: all 0.5s;
+}
+.button1:hover{
+	color: #fff;
+	background-color: #111;
+	transform: scale(1.1);
+}
+/*Header Section*/
+header{
+	nav a{
+		font-family: 'Open Sans', 'Sans Serif';
+		font-size: 10px;
+		font-weight: 400;
+		transition: all 0.5s;
+	}
+	nav a:hover{
+		transform: scale(1.5);
+	}
+	.nav-container{
+		h3{
+			padding: 5px 30px;
+			background-color: #fff;
+			font-weight: bold;
+			letter-spacing: 0.2em;
+			color: #000;
+		}
+	}
+	h1{
+		font-size: 120px;
+		font-weight: 800;
+		font-family: 'Open Sans';
+	}
+	h3{
+		font-size: 14.58px;
+		font-weight: 300;
+		color: #999999;
+	}
+	button{
+		font-size: 12px;
+		font-weight: bold;
+		transition: all 0.5s;
+	}
+	button:hover{
+		background-color: #000;
+		color: #ddd;
+	}
+}
+
+/*we-do Section*/
+.we-dos{
+	background-color: $global-gray;
+	padding-top: 140px;
+	h4{
+		font-size: 13px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
+	p{
+		font-size: 14px;
+		font-weight: 300;
+		color: #999999;
+	}
+	h5 a{
+		color: #000;
+		transition: all 0.5s;
+	}
+	h5 a:hover{
+		color: #fff;
+		background-color: #000;
+	}
+	.we-do{
+		background-color: #fff;
+	}
+}
+ 
+/*works Sections*/
+.works{
+	background-color: $global-off-white;
+	.work-typo{
+		h3{
+			color: #000;
+			font-weight: bold;
+			letter-spacing: 0.1em;
+		}
+	}
+}
+/*Tools section*/
+.tools{
+	background-color: $global-gray;
+	h3{
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.1em;
+	}
+	h5{
+		color:  #777777;
+		font-size: 11.97px;
+		font-weight: 300;
+	}
+	.tool-left-child{
+		background-color: $global-off-white;
+		transition: all 0.5s;
+	}
+	.tool-left-child:hover{
+		background-color: $global-gray;
+		border-left: 10px solid #000;
+	}
+	.tool-right-typo p{
+		font-size: 14px;
+		font-weight: 300;
+		color: #777;
+		line-height: 26px;
+	}
+}
+/* Services section*/
+.services{
+	img{
+		transition: all 0.5s;
+	}
+	img:hover{
+		transform: scale(1.2);
+	}
+}
+/*Testimonials section*/
+.testimonials{
+	background-color: #f8f8f8;
+	.testimonial-child{
+		background-color: #fff;
+		transition: all 0.5s;
+		h5:nth-of-type(1){
+			font-weight: normal;
+			color: #777;
+		}
+	}
+	.testimonial-child:hover{
+		transform: scale(1.01);
+		box-shadow: 0px 10px 40px rgba(35, 34, 34, 0.21);;
+	}
+	.logo img{
+		transition: all 0.1s;
+	}
+	.logo img:hover{
+		transform: scale(1.1);
+	}
+}
+/*Projects section*/
+.projects{
+	background-color: $global-off-white;
+	a{
+		color: #999;
+		font-size: 12px;
+		transition: all 0.5s;
+	}
+	a:hover{
+		background-color: #000;
+		color: #fff;
+	}
+
+}
+/*in-touch and newsletter sections*/
+.in-touch, .newsletters{
+	h3{
+		color: #ececec;
+		font-size: 18px;
+		letter-spacing: 0.1em;
+		font-weight: normal;
+	}
+}
+/*Blogs section*/
+.blogs{
+	background-color: $global-gray;
+	.blog-child{
+		background-color: #fff;
+		transition: all 1s;
+	}
+	.blog-child:hover{
+		transform: scale(1.01);
+		box-shadow: 0px 10px 20px rgba(35, 34, 34, 0.21);
+	}
+}
+/*footer section*/
+footer{
+	background-color: #111;
+	.footer-icon{
+		font-size: 22px;
+		color: #777;
+		transition: all 0.5s;
+	}
+	a:hover{
+		color: #fff;
+	}
+	h4{
+		color: #fff;
+		font-size: 12.98px;
+		font-weight: 400;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #777;
+	}
+	.f-twitter i{
+		padding-right: 5px;
+	}
+	.f-twitter a{
+		color: #fff;
+	}
+	.f-twitter div{
+		padding-bottom: 15px;
+	}
+	.f-twitter div:hover{
+		background-color: rgba(54, 40, 44, 0.5);
+	}
+	.f-newsletter{
+		input{
+			background-color: rgba(54, 40, 44, 0.5);
+		}
+		input:focus{
+			outline: none;
+			border: 1px solid #fff;
+		}
+		a{
+			background-color: rgba(62, 54, 62, 0.7);
+			padding-right: 8px;
+			padding-bottom: 8px;
+			i{
+				// margin-right: 8px;
+			}
+		}
+	}
+	.f-copyright{
+		background-color: #222;
+		p{
+			margin-bottom: 0;
+			padding: 30px 0;
+			font-size: 11px;
+		}
+	}
+}

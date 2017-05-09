@@ -1,0 +1,46 @@
+.projects{
+	ul, li{
+		padding: 0;
+	}
+	img{
+		display: 100%;
+	}
+	padding: 100px 0 65px 0;
+}
+.projects-nav{
+	margin: 65px auto 35px auto;
+	display: flex;
+	justify-content: center;
+	a{
+		padding: 5px 15px;
+	}
+}
+.projects-imgs{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	li{
+		max-width: 33.33%;
+		line-height: 0;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 935px) {
+	.projects-imgs{
+		justify-content: center;
+		li{
+			max-width: 50%;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.projects-imgs{
+		li{
+			max-width: 100%;
+		}
+	}
+}

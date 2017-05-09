@@ -1,0 +1,62 @@
+.footer-main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 100px 0 60px 0;
+	section{
+		width: 23%;
+	}
+}
+.f-icons{
+	display: flex;
+	padding: 0;
+	li{
+		margin-right: 15px;
+	}
+}
+.f-instagram ul{
+	padding: 0;
+	li{
+		width: 33.33%;
+	}
+	display: flex;
+	flex-wrap: wrap;
+	img{
+		vertical-align: top;
+		width: 100%;
+	}
+}
+.f-twitter{
+	p {
+		display: inline;
+	}
+}
+.f-newsletter{
+	input{
+		padding: 10px;
+		border: none;
+		width: 80%;
+	}
+}
+
+@media (max-width: 935px) {
+	.footer-main{
+		section{
+			width: 46%;
+			padding: 10px;
+		}
+	}
+}
+
+@media (max-width: 650px) {
+	.footer-main{
+		justify-content: center;
+		section{
+			width: 92%;
+			padding: 10px;
+		}
+	}
+	.f-copyright p{
+		text-align: center;
+	}
+}

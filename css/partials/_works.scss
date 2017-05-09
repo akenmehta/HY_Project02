@@ -1,0 +1,38 @@
+.works{
+	padding: 140px 0 100px 0;
+}
+.work{
+	display: flex;
+	padding: 75px 0 100px 0;
+}
+.work-typo h3{
+	text-align: left;
+}
+.work-image-01{
+	background: url(../assets/work-process01.jpg) no-repeat;
+	height: 150px;
+}
+.work-image-02{
+	background: url(../assets/work-process02.jpg) no-repeat;
+	height: 150px;
+}
+.work-image-03{
+	background: url(../assets/work-process03.jpg) no-repeat;
+	height: 150px;
+}
+.work-typo{
+	margin: 40px 0 0 100px;
+}
+button{
+	margin: 0 auto;
+	display: block;
+}
+
+@media (max-width: 935px) {
+	.work{
+		flex-wrap: wrap;
+	}
+	.work > *{
+		margin-bottom: 30px;
+	}
+}

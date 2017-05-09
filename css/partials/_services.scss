@@ -1,0 +1,44 @@
+.services div{
+	background:url(../assets/services-main.jpg)no-repeat;
+	height: 378px;
+	/*position: fixed;*/
+}
+.services ul{
+	display: flex;
+	height: 378px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+}
+.services li{
+	img{
+		width: 150px;
+	}
+	h3{
+		color: #fff;
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 935px) {
+	.services ul{
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.services li{
+		width: 40%;
+		img{
+			display: block;
+			margin: 0 auto;
+			width: 100px;
+		}
+	}
+}
+
+@media (max-width: 550px) {
+	.services li{
+		img{
+			width: 75px;
+		}
+	}
+}

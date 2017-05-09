@@ -1,0 +1,96 @@
+.h-container{
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-image: 
+	           linear-gradient(
+	           	rgba(19, 18, 17, 0.82),
+		        rgba(31, 31, 27, 0.28)
+		        ),
+		        url(../assets/banner.jpg);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.nav-placeholder{
+	height: 65px;
+}
+.nav-container{
+	display: flex;
+	justify-content: space-between;
+	h3{
+		margin-left: 50px;
+		a{
+			color: #000;
+		}
+	}
+}
+nav a{
+	padding: 25px 15px;
+	display: block;
+	color: #fff;
+}
+nav ul:first-child, nav ul:last-child{
+	display: flex;
+	margin: 0;
+}
+nav{
+	display: flex;
+	justify-content: flex-end;
+}
+.h-main{
+	display: flex;
+}
+.empty{
+	width: 60px;
+	height: 60px;
+}
+.h-typo{
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 70px;
+	h1{
+		margin-bottom: 20px;
+		letter-spacing: 0.1em;
+	}
+}
+.h-images{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	img{
+		display: block;
+	}
+	img:first-child{
+		border-bottom: 1px solid #10100f;
+	}
+}
+header button{
+	border: none;
+	padding: 10px 30px;
+}
+.h-scroll{
+	align-self: center;
+	padding-bottom: 20px;
+	img{
+		width: 20px;
+	}
+}
+
+@media (max-width: 935px) {
+	header{
+		h1{
+			font-size: 90px;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	header{
+		h1{
+			font-size: 50px;
+		}
+	}
+}

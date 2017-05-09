@@ -1,0 +1,55 @@
+@import 'partials/setup';
+@import 'partials/variables';
+@import 'partials/typography';
+@import 'partials/header';
+@import 'partials/we-do';
+@import 'partials/works';
+@import 'partials/tools';
+@import 'partials/services';
+@import 'partials/testimonials';
+@import 'partials/projects';
+@import 'partials/in-touch';
+@import 'partials/blogs';
+@import 'partials/form';
+@import 'partials/footer';
+
+
+.wrapper{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.wrapper-content{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.shrink{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	transition: all 0.5s;
+	height: 65px;
+	width: 100%;
+	background-color: #fff;
+	h3{
+		background-color: #000 !important;
+		a{
+			color: #fff;
+		}
+	}
+	nav a{
+	padding: 25px 15px;
+	display: block;
+	color: #000;
+	}
+}
+
+.red{
+	border: 1px solid red;
+}
+.yellow{
+	border: 1px solid yellow;
+}
+.blue{
+	border: 1px solid blue;
+}
