@@ -13,6 +13,13 @@
 @import 'partials/form';
 @import 'partials/footer';
 
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 .wrapper{
 	max-width: 1400px;
