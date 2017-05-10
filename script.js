@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
 	// add nav bar when window resizes
@@ -19,19 +20,20 @@ $(document).ready(function(){
 	$('.burger-nav').on('click', function(){
 		$('header nav').toggleClass('nav-open');
 	});
-
-	// google maps code
-	function initMap() {
-	    var uluru = {lat: 43.648, lng: -79.397};
-	    var map = new google.maps.Map(document.getElementById('map'), {
-	      zoom: 18,
-	      center: uluru
-	    });
-	    var marker = new google.maps.Marker({
-	      position: uluru,
-	      map: map
-	    });
-	}
-	initMap();
 	
+
 });
+
+// google maps code
+function initMap() {
+    var uluru = {lat: 43.648, lng: -79.397};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 18,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+}
+
